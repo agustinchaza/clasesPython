@@ -2,6 +2,7 @@ import random
 
 numeroAleatorio = random.randint(0, 100)
 numeroUsuario = None
+vidas=5
 
 while True:
     numeroUsuario = int(input("Ingrese un número: "))
