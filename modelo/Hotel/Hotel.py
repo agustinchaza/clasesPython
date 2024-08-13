@@ -83,7 +83,7 @@ while True:
     opcion=int(input("ingrese el numero de la accion a realizar: "))
 
 
-    os.system("clear")
+    os.system("clear") #cls en windows clear en linux
 
     if opcion == 1:
         Sanaez.imporimirInformacion()
